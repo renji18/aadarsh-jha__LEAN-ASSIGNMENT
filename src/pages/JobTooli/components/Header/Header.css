@@ -1,0 +1,40 @@
+.headerWrapper2 {
+  padding: 32px 70px;
+  width: 96.5vw;
+  display: flex;
+  position: fixed;
+  background-color: #F5F5F5;
+  z-index: 100;
+  justify-content: space-between;
+  margin: 0 60px;
+}
+
+.searchBar2 {
+  display: flex;
+  align-items: center;
+}
+
+.inputSearch2 {
+  background: #F5F5F5;
+  color: #D2D2D2;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  width: 400px;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bell0 {
+  border: 5px solid yellow;
+  border-radius: 5px;
+  transform: translate(25px, -15px);
+}
+
+.bell2 {
+  transform: translate(-16px, 5px);
+}

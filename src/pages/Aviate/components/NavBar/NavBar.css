@@ -1,0 +1,39 @@
+.navbar {
+  width: 121.53px;
+  height: 100vh;
+  z-index: -100;
+  position: fixed;
+  padding: 70px 0px 40px 0;
+  display: grid;
+  text-align: center;
+  left: 0px;
+  top: 80px;
+  background: #22506c;
+  box-shadow: 4px 0px 9px rgba(0, 0, 0, 0.25);
+}
+
+.navs {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.help button {
+  padding: 2px 12px;
+  font-size: 12px;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  width: 60px;
+}
+
+.logoutSection {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.logOut p {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}

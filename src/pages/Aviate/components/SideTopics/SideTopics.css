@@ -1,0 +1,143 @@
+.sideTopics {
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  top: 135px;
+  width: 350px;
+  height: 100%;
+}
+
+.suggestedSessions {
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 21px 34px;
+}
+
+.sessionIcon {
+  height: 130px;
+  width: 235px;
+}
+
+.dots {
+  position: absolute;
+  top: 18px;
+  right: 23px;
+}
+
+.titleSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.seeAll {
+  color: #043ca7;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.itemCard {
+  display: flex;
+  justify-content: space-between;
+  line-height: 5px;
+  border-bottom: 0.5px solid rgba(138, 135, 135, 0.527);
+}
+
+.cardTitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cardDate {
+  color: rgba(5, 5, 5, 0.527);
+  font-size: 10px;
+}
+
+.cardTiming {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cardBtn {
+  font-size: 15px;
+  padding: 6px 11px;
+  font-size: 9px;
+  height: 25px;
+  margin-top: 25px;
+  background: linear-gradient(
+    95deg,
+    rgba(254, 178, 123, 0.7) 4.42%,
+    rgba(249, 191, 149, 0.89) 99.33%
+  );
+  color: #894a01;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.events {
+  margin-top: 50px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 21px 34px;
+}
+
+.eventsTitle {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.eventsTitleSection {
+  margin-top: -30px;
+}
+
+.date-picker {
+  right: 25px;
+  outline: none;
+  margin: 0 130px;
+  border: 0.5px solid rgba(138, 135, 135, 0.527);
+  padding: 7px 20px;
+  background: #fef6ff;
+  box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 9.41363px;
+}
+
+.eventItemHolder {
+  display: flex;
+  line-height: 5px;
+  justify-content: space-between;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+
+.imgHolder {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2px;
+  padding-bottom: 2px;
+}
+
+.eventTitle {
+  font-size: 13px;
+}
+
+.eventDate {
+  color: rgba(5, 5, 5, 0.527);
+  font-size: 10px;
+}
+
+.eventTiming {
+  font-size: 13px;
+}

@@ -1,0 +1,93 @@
+.header {
+  background: #22506C;
+  width: 100vw;
+  height: 80px;
+  box-shadow: 4px 0 9px rgba(0, 0, 0, 0.25);
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px;
+}
+
+.logo_img {
+  width: 188px;
+  height: 56px;
+}
+
+.user_data {
+  display: flex;
+  align-items: center;
+}
+
+.user_data img {
+  height: 70.5px;
+  width: 70.5px;
+  box-sizing: border-box;
+}
+
+.user_data div {
+  text-align: center;
+  color: white;
+}
+
+.user_data div button {
+  width: 100px;
+  transform: translateY(-10px);
+  padding: 2px 19px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.search_bar_holder {
+  position: relative;
+  width: 600px;
+  height: 55px;
+}
+
+.search_bar_holder img {
+  z-index: 100;
+  position: absolute;
+  left: 3.5%;
+  top: 28%;
+  
+}
+
+.search_bar {
+  z-index: 100;
+  width: 600px;
+  height: 55px;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 82px;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.icon_holders {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.icon_holders img {
+  height: 26.5px;
+  width: 26.5px;
+}
+
+.icon_holders div {
+  height: 26.5px;
+  width: 52.5px;
+  position: relative;
+}
+
+.dot_icon {
+  position: absolute;
+  left: 0;
+  transform: translate(10px, -10px);
+}

@@ -1,0 +1,111 @@
+.myJobsWrapper{
+  margin-top: 60px;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingContainer > h1 {
+  font-weight: 500;
+}
+
+.searchStatus {
+  text-align: center;
+}
+
+.selectToggle {
+  margin-top: -10px;
+  position: relative;
+}
+
+.statusDot {
+  height: 10px;
+  width: 10px;
+  z-index: 20;
+  background: rgb(16, 204, 16);
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  border-radius: 20px;
+}
+
+.statusSelect {
+  outline: none;
+  text-align: center;
+  border: 0.5px solid rgba(138, 135, 135, 0.527);
+  padding: 7px 20px 7px 30px;
+  background: #fef6ff;
+  box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 9.41363px;
+}
+
+.applicationCenter {
+  position: relative;
+  border-radius: 15px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 21px 34px;
+}
+
+.singleApplication {
+  display: flex;
+  line-height: 5px;
+  justify-content: space-between;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+
+.descSection {
+  display: flex;
+  gap: 10px;
+}
+
+.descSectionName {
+  font-weight: 600;
+}
+
+.descSectionDesc {
+  color: rgba(124, 120, 120, 0.815);
+  font-size: small;
+}
+
+.descSectionLocation {
+  color: rgba(124, 120, 120, 0.815);
+}
+
+.costSection {
+  text-align: center;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.staticPerMonth {
+  color: rgba(124, 120, 120, 0.815);
+  font-size: small;
+}
+
+.rejectHidden {
+  visibility: hidden;
+}
+
+.statusSectionStatus {
+  text-align: center;
+  background: red;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.statusSectionChance {
+  text-align: center;
+  font-size: smaller;
+  color: red;
+}

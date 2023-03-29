@@ -1,0 +1,43 @@
+.filtersWrapper2 {
+  background: #F5F5F5;
+  position: fixed;
+  margin-left: 80px;
+  margin-top: 265px;
+  width: 50vw;
+  height: 100vh;
+  padding-left: 50px;
+}
+
+.filtersWrapper2 h2 {
+  padding: 0 105px;
+}
+
+.filterToggleTray div {
+  display: flex;
+  align-items: center;
+}
+
+.filterToggleTray img {
+  height: 22px;
+}
+
+.whiteDotInToggleOn{
+  transform: translate(-25px, 3px);
+}
+
+.whiteDotInToggleOff{
+  transform: translate(-50px, 3px);
+}
+
+.filterJobTooli2 img {
+  height: 20px;
+}
+
+.filterJobTooli2 {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  color: #9fa2b4;
+  font-weight: 600;
+  gap: 20px;
+}

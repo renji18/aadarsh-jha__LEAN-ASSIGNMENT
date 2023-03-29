@@ -1,0 +1,117 @@
+.mainWrapper2 {
+  padding: 41px 35px 41px;
+  width: 73vw;
+  margin-left: 530px;
+  background-color: white;
+  border: 1px solid #DFE0EB;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 265px;
+}
+
+.head2 {
+  display: flex;
+  align-items: center;
+}
+
+.deselect2 {
+  transform: translate(-14px, -7px);
+}
+
+.dropDown2 {
+  margin-left: 60px;
+  background: #F0F0F0;
+  padding: 6px 8px 1px;
+  border-radius: 15px;
+}
+
+.dropDown2 select {
+  font-weight: 600;
+  outline: none;
+  background: #F0F0F0;
+  border: none;
+  margin-left: 5px;
+  transform: translateY(-3px);
+}
+
+.endSection2 {
+  position: absolute;
+  right: 45px;
+}
+
+.endSection2 p {
+  background: #61DC00;
+  color: #FFFFFF;
+  border-radius: 15px;
+  padding: 2px 5px;
+}
+
+.jobItem2 {
+  display: flex;
+  position: relative;
+  margin: 40px 0;
+}
+
+.face2 {
+  height: 66px;
+  width: 66px;
+  border-radius: 80px;
+}
+
+.name2 {
+  display: flex;
+}
+
+.bookmark2 {
+  height: 20px;
+  transform: translateY(6px);
+  width: 15px;
+  margin: 0 17px;
+}
+
+.info2 {
+  line-height: 0px;
+}
+
+.name2position2 {
+  transform: translate(50px, 0px);
+  color: #9FA2B4;
+}
+
+.clock2 {
+  height: 15px;
+  transform: translateY(6px);
+  margin: 0 10px;
+  width: 15px;
+}
+
+.timing2 {
+  color: #9FA2B4;
+}
+
+.threeDot {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.status2 {
+  position: absolute;
+  right: 80px;
+}
+
+.status2 img {
+  transform: translateY(5px);
+}
+
+.status2 p {
+  transform: translateY(-5px);
+}
+
+.step2 {
+  text-align: center;
+  width: 300px;
+  position: absolute;
+  right: 300px;
+  height: 24px;
+}
